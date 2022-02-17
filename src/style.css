@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 9.6rem 2rem;
+  margin: 2rem auto;
+}
+
+.section-order {
+  background-color: #e0e8ff;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+}
+
+.order-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 37.5rem;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0 1.6rem 3.2em rgba(0, 0, 0, 0.075);
+}
+
+.order-img {
+  width: 100%;
+}
+
+.order-textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2.4rem;
+  text-align: center;
+}
+
+.heading-second {
+  font-size: 2.4rem;
+  font-weight: 900;
+  color: #1f2f56;
+  letter-spacing: 0.7px;
+}
+
+.text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 500;
+  color: #7280a7;
+}
+
+.plan-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f7ff;
+  padding: 1.2rem 2rem;
+  border-radius: 15px;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  box-shadow: 0 1.6rem 3.2em rgba(0, 0, 0, 0.1);
+}
+
+.summary {
+  display: flex;
+  gap: 2rem;
+}
+
+.plan-details {
+  list-style: none;
+  /* padding-right: ; */
+}
+
+.plan-tag {
+  font-weight: 900;
+  color: #1f2f56;
+}
+
+.plan-price {
+  font-weight: 500;
+  color: #7280a7;
+}
+
+.plan-change {
+  color: #3829e0;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.plan-change:hover,
+.plan-change:active {
+  opacity: 50%;
+  text-decoration: none;
+}
+
+.btn {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  padding: 1.2rem;
+  border-radius: 15px;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.btn--confirm:link,
+.btn--confirm:visited {
+  background-color: #3829e0;
+  color: #f5f7ff;
+  box-shadow: 0 1.6rem 3.2em rgba(0, 0, 0, 0.25);
+}
+
+.btn--confirm:hover,
+.btn--confirm:active {
+  opacity: 50%;
+}
+
+.btn--cancel:link,
+.btn--cancel:visited {
+  color: #7280a7;
+}
+
+.btn--cancel:hover,
+.btn--cancel:active {
+  color: #1f2f56;
+}
