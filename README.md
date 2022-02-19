@@ -35,7 +35,4 @@ This is a solution to [Order summary card challenge on Frontend Mentor](https://
 
 use of responisve design elements like, fluid layout, responsize units(rem), flexible images.
 
-### Continued Developments
-
-Planning to develop a component using react js.
 
